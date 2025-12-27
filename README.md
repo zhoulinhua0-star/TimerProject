@@ -8,7 +8,7 @@ This project consists of several different console-based timer implementations i
 
 2. **CountdownTimer2.java** - This file showcases a more advanced approach, using Java's `ScheduledExecutorService` or similar modern methods for creating countdown timers with better performance and flexibility.
 
-3. **StopWatch.java** - A console-based stopwatch designed for interactive use. Within the console, after the user sees the prompt showing up, directly enter 0 for starting the stopwatch, enter 1 for stopping it, enter 2 for reset and finally if you want to directly exit just enter 3 (hopefully it will work just fine). Essentially rather than saying it's a rigorously designed stopwatch, it's more like an interactive game designated for users and learners who are interested in getting familiar with the usage of Duration and Instant class as well as manipulating time-related stuff via Java.
+3. **StopWatch.java** - A console-based stopwatch designed for interactive use. Within the console, after the user sees the prompt "Enter # to make your move: " showing up, directly enter 0 after the prompt for starting the stopwatch, enter 1 for stopping it, enter 2 for reset and finally if you want to directly exit just enter 3 (hopefully it will work just fine). Essentially rather than saying it's a rigorously designed stopwatch, it's more like an interactive game designated for users and learners who are interested in getting familiar with the usage of Duration and Instant class as well as manipulating time-related stuff via Java.
 
 ## How to Use:
 
