@@ -21,7 +21,7 @@ public class CountDownTimer {
             return;
         }
 
-        System.out.println("Starting countdown from 3 seconds...\n");
+        System.out.println("Starting countdown from " + Integer.toString(count) + " seconds...\n");
         Timer timer = new Timer();
         TimerTask task = new TimerTask() {
             @Override
