@@ -13,6 +13,7 @@ public class CountDownTimer {
             System.out.println("Invalid input...");
             return;
         }
+        
         count = scanner.nextInt();
 
         if (count < 0) {
