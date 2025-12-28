@@ -120,6 +120,7 @@ public class SmartAlarmClock {
 
     public void snooze() {
         alarmTime = LocalTime.now().plusMinutes(snoozeMinutes);
+        // TODO
         // This action requires integration with external hardware or system components.
         // Implementation is left as a placeholder.
         System.out.println("Next alarm at " + alarmTime);
